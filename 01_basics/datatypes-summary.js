@@ -33,3 +33,35 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId)
+
+//symbol
+
+//++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack (primitive), Heap (Non-primitive)
+
+let myYoutubename = "amitbharana"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+//amitbharana
+//chaiaurcode
+
+let userOne = {
+    email: "amit@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "amit@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+//amit@google.com
+//amit@google.com
